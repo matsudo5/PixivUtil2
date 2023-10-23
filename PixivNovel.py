@@ -142,6 +142,8 @@ class NovelSeries:
     def __init__(self, series_id, series_json) -> None:
         self.series_id = series_id
         self.series_str = series_json
+        self.series_list = list()
+        self.series_list_str = dict()
 
         self.parse()
 
